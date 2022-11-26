@@ -20,3 +20,42 @@ void Game(int r)
     Console.WriteLine($"Счет игры Пользователь {a} - {b} Компьютер"); 
 } 
 */
+
+/*
+Программа для второго задания
+
+string[] array = GetArray();
+PrintArray(array);
+PrintArray2(array);
+
+string[] GetArray()
+{ 
+    string[] result = new string[5];
+    for (int i = 0; i < 5; i++)
+    {        
+        Console.WriteLine("Введите строку массива:");
+        result[i] = Console.ReadLine()!;
+    }
+    return result;
+}
+
+void PrintArray(string[] Array)
+{
+    for (int i = 0; i < Array.GetLength(0); i++)
+    {        
+        Console.Write($"{Array[i]}  ");            
+    }
+    Console.WriteLine();
+}
+
+void PrintArray2(string[] Array)
+{
+    for (int i = 0; i < Array.GetLength(0); i++)
+    {
+        int L = Array[i].Length;
+        if (L <= 3) 
+        Console.Write($"{Array[i]}  ");        
+    }
+    Console.WriteLine();
+}
+*/
